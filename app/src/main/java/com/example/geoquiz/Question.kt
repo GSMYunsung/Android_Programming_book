@@ -17,6 +17,6 @@ import androidx.annotation.StringRes
 // 해당 모델 클래스는 true-false 를 보여주는 위젯에 대해 모른다!
 // 즉, 다음 클래스는 범용적으로 사용이 가능하다는 장점이 나타난다.
 
-data class Question(@StringRes val textResId : Int , val answer : Boolean) {
+data class Question(@StringRes val textResId : Int, val answer : Boolean, var userAnswer : Boolean) {
 
 }
