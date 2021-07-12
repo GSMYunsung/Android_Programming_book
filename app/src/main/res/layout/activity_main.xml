@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context=".geoquizapp.MainActivity">
 
     <LinearLayout
         android:orientation="vertical"
@@ -48,8 +48,11 @@
         </LinearLayout>
 
         <Button
+            android:backgroundTint="#CC99FF"
+            android:drawableRight="@drawable/next_arrow_icon"
             android:layout_gravity="center"
             android:text="next"
+            android:textColor="@color/black"
             android:id="@+id/next_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>

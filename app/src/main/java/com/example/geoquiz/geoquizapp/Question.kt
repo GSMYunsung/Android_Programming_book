@@ -1,4 +1,4 @@
-package com.example.geoquiz
+package com.example.geoquiz.geoquizapp
 
 import androidx.annotation.StringRes
 
